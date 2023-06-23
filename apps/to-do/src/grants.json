@@ -1,0 +1,50 @@
+[
+  {
+    "role": "todoUser",
+    "resource": "Listname",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Listname",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "todoUser",
+    "resource": "Listname",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Listname",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "todoUser",
+    "resource": "Listname",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Listname",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "todoUser",
+    "resource": "Listname",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Listname",
+    "action": "delete:any",
+    "attributes": "*"
+  }
+]
